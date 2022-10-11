@@ -1,4 +1,5 @@
 #include "square.h"
+using namespace SQUARE;
 square::square() {
 	side = 0;
 }

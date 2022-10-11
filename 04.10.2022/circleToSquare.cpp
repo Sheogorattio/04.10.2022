@@ -1,4 +1,5 @@
 #include "circleToSquare.h"
+using namespace cToS;
 circleToSquare::circleToSquare(double s, double r) {
 	side = s;
 	radius = r;

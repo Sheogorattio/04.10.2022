@@ -1,4 +1,5 @@
 #include "circle.h"
+using namespace CIRCLE;
 circle::circle() {
 	radius = 0;
 }
