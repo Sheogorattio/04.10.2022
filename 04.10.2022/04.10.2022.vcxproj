@@ -127,15 +127,25 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="baseException.cpp" />
     <ClCompile Include="circle.cpp" />
     <ClCompile Include="circleToSquare.cpp" />
+    <ClCompile Include="incorrectRadiusLengthException.cpp" />
+    <ClCompile Include="incorrectSideLengthException.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="square.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="baseException.h" />
     <ClInclude Include="circle.h" />
     <ClInclude Include="circleToSquare.h" />
+    <ClInclude Include="exceptions.h" />
+    <ClInclude Include="incorrectRadiusLengthException.h" />
+    <ClInclude Include="incorrectSideLengthException.h" />
     <ClInclude Include="square.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram.cd" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

@@ -27,6 +27,15 @@
     <ClCompile Include="circleToSquare.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="baseException.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="incorrectSideLengthException.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="incorrectRadiusLengthException.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="square.h">
@@ -38,5 +47,20 @@
     <ClInclude Include="circleToSquare.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="baseException.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="incorrectSideLengthException.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="exceptions.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="incorrectRadiusLengthException.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram.cd" />
   </ItemGroup>
 </Project>

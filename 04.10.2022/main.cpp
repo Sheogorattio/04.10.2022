@@ -3,6 +3,6 @@
 using namespace std;
 using namespace cToS;
 int main() {
-	circleToSquare obj(20, 5);
+	circleToSquare obj(1, -1);
 	cout << obj.isAble();
 }
